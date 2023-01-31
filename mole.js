@@ -1,5 +1,5 @@
 let score = 0;
-let molesLeft = 30;
+let molesLeft = 40;
 let popupLength = 3000;
 let hideTimeout;
 let clickable = false;
@@ -33,7 +33,7 @@ function hideMole(mole) {
   clickable = false;
   mole.classList.add('wgs__mole-head--hidden');
 
-  setTimeout(popUpRandomMole, 500);
+  setTimeout(popUpRandomMole, 300);
 }
 
 window.addEventListener('DOMContentLoaded', () => {
